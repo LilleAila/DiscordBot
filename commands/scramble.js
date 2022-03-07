@@ -27,7 +27,7 @@ module.exports = {
                 .addChoice('Pyraminx', 'pyraminx')
                 .addChoice('Square-1', 'sq1')
                 .addChoice('Clock', 'clock')
-                .addChoice('Redi Cube', 'redi cube')
+                .addChoice('Redi Cube', 'redi')
                 .setRequired(false))
         .addIntegerOption(option =>
             option.setName('count')
